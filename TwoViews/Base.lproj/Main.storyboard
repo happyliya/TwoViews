@@ -17,26 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9oh-bB-5Sh">
-                                <rect key="frame" x="64" y="15" width="768" height="169.5"/>
+                                <rect key="frame" x="60" y="16" width="776" height="166.5"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fIW-Vn-qOD">
-                                <rect key="frame" x="64" y="212.5" width="768" height="169.5"/>
+                                <rect key="frame" x="60" y="210.5" width="776" height="166.5"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fIW-Vn-qOD" secondAttribute="bottom" constant="11" id="6DG-cE-8Ea"/>
-                            <constraint firstItem="fIW-Vn-qOD" firstAttribute="height" secondItem="9oh-bB-5Sh" secondAttribute="height" id="7fY-Bs-mnc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9oh-bB-5Sh" secondAttribute="trailing" constant="20" id="G73-b6-pg1"/>
-                            <constraint firstItem="fIW-Vn-qOD" firstAttribute="width" secondItem="9oh-bB-5Sh" secondAttribute="width" id="SMw-wr-oMM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fIW-Vn-qOD" secondAttribute="trailing" constant="20" id="UuV-JN-B8R"/>
-                            <constraint firstItem="fIW-Vn-qOD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bKJ-LI-5Mi"/>
-                            <constraint firstItem="fIW-Vn-qOD" firstAttribute="top" secondItem="9oh-bB-5Sh" secondAttribute="bottom" constant="28" id="hia-LV-41u"/>
-                            <constraint firstItem="9oh-bB-5Sh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="qTa-hm-vqC"/>
-                            <constraint firstItem="9oh-bB-5Sh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yPi-Rf-XNT"/>
+                            <constraint firstItem="9oh-bB-5Sh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4AB-zg-8hm"/>
+                            <constraint firstItem="fIW-Vn-qOD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="IX7-h2-0LL"/>
+                            <constraint firstItem="9oh-bB-5Sh" firstAttribute="height" secondItem="fIW-Vn-qOD" secondAttribute="height" id="PIV-JB-8vT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9oh-bB-5Sh" secondAttribute="trailing" constant="16" id="bTF-IY-Ihg"/>
+                            <constraint firstItem="9oh-bB-5Sh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="jBD-Sq-UdO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fIW-Vn-qOD" secondAttribute="bottom" constant="16" id="uOP-Z1-tRJ"/>
+                            <constraint firstItem="fIW-Vn-qOD" firstAttribute="top" secondItem="9oh-bB-5Sh" secondAttribute="bottom" constant="28" id="w9h-ur-ioB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fIW-Vn-qOD" secondAttribute="trailing" constant="16" id="xbg-6Q-RB1"/>
                         </constraints>
                     </view>
                 </viewController>
